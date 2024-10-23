@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/contacto.css">
+    <title>Contacto</title>
+</head>
+<body>
+
+    <!-- Barra de navegacion -->
+    <header class="header-principal">
+        <img src="../imagenes/head-logo-hilton.png" alt="logo Hilton" class="imagen-header">
+        <nav>
+            <a href="../index.html">Inicio</a>
+            <a href="habitaciones.html">Habitaciones</a>
+            <a href="servicios.html">Servicios</a>
+            <a href="galeria.html">Galeria</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+    </header>
+
+
+    <!-- Seccion Principal -->
+    <section class="seccion-contacto">
+        <h1 class="titulo-contacto"> Contacto </h1>
+
+     <!-- Fotmulario -->
+
+     <div class="formulario">
+ <form class="formulario" action="/submit" method="post">
+    <label for="Nombre">Nombre</label>
+    <input type="text" name="nombre" id="nombre" required><br>
+    
+    <label for="Email">Correo Electronico</label>
+    <input type="email" name="email" id="email" required><br>
+    
+    <label for="Asunto">Asunto</label>
+    <input type="asunto" name="asunto" id="asunto" required><br>
+    
+    <label for="Mensaje">Mensaje</label>
+    <textarea name="mensaje" id="mensaje" rows="4" required></textarea> <br>
+    
+    <button type="submit">Enviar</button>
+
+    </div>
+</section>
+
+<div>
+    <footer>
+        <p>©2024 Hilton</p>
+    </footer>
+</div>
+
+</body>
+</html>
