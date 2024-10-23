@@ -1,12 +1,11 @@
-.header-principal{
+.header-principal {
     box-shadow: 0 0 5px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: blue;
-    a {
-        text-decoration: none;
-      color: blue;
-    }
+    
+}
 
 .imagen-header {
     width: 50px;
 }
+   
