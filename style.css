@@ -22,7 +22,7 @@ a {
 /* INICIO */
 
 .titulo-pag1 {
-    font-size: 40px;
+    font-size: 45px;
     font-style: italic;
     text-align: center;
 }
@@ -60,7 +60,7 @@ a {
 /* HABITACIONES */
 
 .titulo-habitaciones {
-    font-size: 40px;
+    font-size: 45px;
     font-style: italic;
     text-align: center;
 }
@@ -85,3 +85,39 @@ a {
     display: flex;
     justify-content: center;
 }
+
+/* SERvICIOS */
+
+.titulo-servicios {
+    font-size: 45px;
+    font-style: italic;
+    text-align: center;
+}
+
+.tercer-titulo-servicios {
+    font-style: italic;
+    color: blue;
+    font-size: 30px;
+}
+
+
+.servicios {
+    display: flex;
+    flex-direction: row;
+    gap: 250px;
+    flex-wrap: wrap;
+    padding: 10px;
+    align-items: center;
+
+    
+}
+
+.flex-1 {
+    flex-grow: 1;
+    text-align: cenet;
+    margin: 1;
+   
+    
+    
+}
+
