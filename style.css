@@ -121,3 +121,21 @@ a {
     
 }
 
+/* GALERIA */
+
+.titulo-galeria {
+    font-size: 45px;
+    font-style: italic;
+    text-align: center;
+}
+
+.galeria {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+}
+
+.galeria img {
+    max-width: 400px;
+    padding: 1rem;
+}
