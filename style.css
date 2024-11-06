@@ -47,8 +47,6 @@ a {
 }
 
 
-
-
 .parrafo-pag1 {
     font-style: italic;
     text-align: center;
@@ -83,7 +81,13 @@ a {
 
 .container-habitaciones {
     display: flex;
+    flex-flow: wrap;
     justify-content: center;
+}
+
+.container-habitaciones img {
+    max-width: 400px;
+    padding: 1rem;
 }
 
 
