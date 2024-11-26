@@ -1,7 +1,8 @@
 .header-principal {
     position: relative;
-    width: 100%;
+    width: 70%;
     height: 50px;
+    margin: 20px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -11,8 +12,11 @@
 
 
 a {
+    font-size: 20px;
+    padding: 10px;
     text-decoration: none;
     text-align: center;
+    color: black;
 }
 
 .imagen-header {
