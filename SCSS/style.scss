@@ -1,6 +1,10 @@
-@import "header.scss";
-@import "inicio.scss";
-@import "habitaciones.scss";
-@import "servicios.scss";
-@import "galeria.scss";
-@import "contacto.scss";
+.header-principal {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+
+}
